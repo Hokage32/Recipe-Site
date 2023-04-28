@@ -150,12 +150,18 @@ footer{
 	
 }
 
+.search{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
 
 .search-bar{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 500px;
+	
+	width: 400px;
 	margin-top: 5px;
 	border-radius: 100px;
 	background-color: rgb(241, 160, 94);;

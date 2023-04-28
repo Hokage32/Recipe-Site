@@ -39,6 +39,7 @@ const HomeScreen = () => {
   return (
     <div>
       <AdBanner />
+      <div className='search'>
       <div className='search-bar'>
         <BiSearchAlt size='2em' color= "#DA7653"/>
       <input 
@@ -48,6 +49,7 @@ const HomeScreen = () => {
       onChange={handleSearch}
       placeholder='Search for a recipe!'
        />
+       </div>
        </div>
        <div recipe-container>
 
